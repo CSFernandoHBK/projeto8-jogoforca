@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Jogo da Forca
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Esse aplicativo foi criado utilizando React, para o projeto 8 do bootcamp da Driven Education.
 
 ## Available Scripts
 
