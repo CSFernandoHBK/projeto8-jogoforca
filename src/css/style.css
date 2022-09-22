@@ -1,0 +1,75 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.letras{
+    display: flex;
+    width: 600px;
+    flex-wrap: wrap;
+}
+.letraOculta{
+    width: 35px;
+    height: 35px;
+    background-color: #9FAAB5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #7A828C;
+}
+.letraAtiva{
+    width: 35px;
+    height: 35px;
+    background-color: #E1ECF4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 8px;
+    border-color: blue;
+    border-width: 4px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #3979AB;
+}
+.forca img{
+    height: 420px;
+    margin-bottom: 20px;
+}
+.escolherPalavra{
+    background-color: #27AE60;
+    height: 40px;
+    width: 150px;
+    margin-top: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    border-color: #1E844A;
+    border-width: 1px;
+    border-radius: 8px;
+}
+.superior{
+    display: flex;
+    justify-content: space-between;
+}
+.inferior{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inferior input{
+    height: 25px;
+    width: 300px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
