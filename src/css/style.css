@@ -6,6 +6,10 @@ body{
     align-items: center;
 }
 
+.oculta{
+    display: none !important;
+}
+
 .letras{
     display: flex;
     width: 600px;
@@ -72,4 +76,24 @@ body{
     width: 300px;
     margin-left: 10px;
     margin-right: 10px;
+}
+
+.palavrarend{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: 30px;
+    border: 1px solid black;
+    padding: 3px;
+}
+
+.palavrarend li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    padding-bottom: 3px;
+    font-size: 30px;
+    width: 30px;
+    border-bottom: 2px solid black;
 }
